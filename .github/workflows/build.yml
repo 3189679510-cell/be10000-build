@@ -36,7 +36,7 @@ jobs:
 
       - name: Apply config
         run: |
-          cp ../configs/be10000.config openwrt/.config
+          cp configs/be10000.config openwrt/.config
           cd openwrt
           make defconfig
 
